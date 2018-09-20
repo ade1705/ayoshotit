@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: #D5312B;
+$font-size-base: .75rem; // 14px
+$line-height-base: 1.6;
+$text-color: #111;
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.bold800 {font-weight: 800;}
+.navbar-light .navbar-nav .nav-link {
+    color:$text-color;
+}
